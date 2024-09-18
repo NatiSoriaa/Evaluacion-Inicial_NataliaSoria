@@ -1,0 +1,99 @@
+nav{
+    background-color: rgb(74, 134, 253);
+    color: white;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+nav ul{
+    align-content: center;
+}
+nav h1{
+    padding: 5px;
+}
+
+
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.piano2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.estadistica{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.celular{
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+}
+
+
+
+.texto{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.parlante{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.frase{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.papel{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.tituloParlante{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.tituloFrase{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.tituloPapel{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container{
+    width: 20%;
+    margin: 30px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(228, 228, 228);
+}
+.propaganda{
+    padding: 20px; 
+}
+.coneccion{
+    padding: 20px;
+}
+.piano{
+    padding: 20px;
+}
+.stereo{
+    padding: 20px;
+}
+
