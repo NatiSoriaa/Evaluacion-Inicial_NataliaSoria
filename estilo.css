@@ -1,17 +1,32 @@
 nav{
-    background-color: rgb(74, 134, 253);
+    background-color: rgb(60, 103, 189);
     color: white;
-    margin: 3px;
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    padding: 10px;
 }
 nav ul{
-    align-content: center;
+    display: flex;
+}
+nav li{
+    padding: 10px;
 }
 nav h1{
     padding: 5px;
 }
+.accede{
+    border: solid  rgb(47, 81, 148);
+    background-color: rgb(47, 81, 148);
+}
+.registrate{
+    border: solid rgb(47, 81, 148);
+    background-color: rgb(47, 81, 148);
+}
+
 
 
 
@@ -38,6 +53,7 @@ nav h1{
 
 
 
+
 .texto{
     margin: 10px;
     width: 100%;
@@ -45,35 +61,39 @@ nav h1{
     flex-direction: row;
 }
 .parlante{
-    margin: 30px;
     display: flex;
     flex-direction: row;
+    border: solid rgb(194, 194, 194);
+    background-color: white
 }
 .frase{
-    margin: 30px;
     display: flex;
     flex-direction: row;
+    border: solid  rgb(194, 194, 194);
+    background-color: white
 }
 .papel{
-    margin: 30px;
     display: flex;
     flex-direction: row;
+    border: solid  rgb(194, 194, 194);
+    background-color: white
 }
 .tituloParlante{
-    margin: 10px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
 }
 .tituloFrase{
-    margin: 10px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
 }
 .tituloPapel{
-    margin: 10px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
 }
+
 
 
 
@@ -82,7 +102,7 @@ nav h1{
     margin: 30px;
     text-align: center;
     align-content: center;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(194, 194, 194);
 }
 .propaganda{
     padding: 20px; 
@@ -95,5 +115,11 @@ nav h1{
 }
 .stereo{
     padding: 20px;
+}
+
+
+
+body{
+    background-color: rgb(219, 219, 219);
 }
 
